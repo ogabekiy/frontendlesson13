@@ -12,16 +12,16 @@ const Navbar = ({ user, setUser }) => {
       <nav className="bg-white border-gray-200 container border-b dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://ih1.redbubble.net/image.2950444449.6282/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp"
               className="h-8"
               alt="Flowbite Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
+              Store
             </span>
           </a>
           {user ? (
